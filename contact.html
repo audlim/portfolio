@@ -79,9 +79,28 @@
           
         </div>
 
-        
+        <!-- Formspree start -->
+        <div class="row">
+          <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xoqzezpy" method="post">
+            <fieldset id="fs-frm-inputs">
+              <label for="name">Name</label><br>
+              <input type="text" name="name" id="name" required="" size="35"><br>
+              <label for="email-address">Email address</label><br>
+              <input type="email" name="_replyto" id="email-address" required=""size="35"><br>
+              <label for="message">Message</label><br>
+              <textarea rows="10" name="message" id="message" required=""cols="35"></textarea>
+              <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"><br>
+            </fieldset>
+            <button type="submit" class="btn btn-secondary">Submit</button>
+          </form>          
+        </div>
+        <!-- Formspree end -->
 
-          <div class="col-lg-8 mt-5 mt-lg-0">
+      </div>
+    </section><!-- End Contact Section -->
+
+          <!--
+	  <div class="col-lg-8 mt-5 mt-lg-0">
 
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
@@ -113,7 +132,7 @@
       </div>
     </section><!-- End Contact Section -->
 	  
-	  
+	
 	  
 	 
 
